@@ -2,8 +2,13 @@
 
 
 
-Mercure:
+                Mercure:
 
+Overview:               Mercury, the closest planet to the Sun, is a rocky sphere pockmarked 
+                        with craters resulting from meteorite impacts. Its hostile environment is 
+                        characterized by extreme temperatures, with scorching heat during the 
+                        day and freezing cold at night. Its surface is marked by plains, mountains, 
+                        and steep cliffs.
 Rotation period:        58.6 Earth days
 Revolution time:        88 Earth days
 Radius:                 2 439.7km
@@ -11,54 +16,119 @@ Average temperature:    day: 427 degres(800 Fahreneit), night: -173 degres(-280 
 
 
 
-Venus:
+                Venus:
 
+Overview:               Venus, often referred to as Earth's "sister planet" due to its similar size 
+                        and composition, is a planet shrouded in a thick atmosphere composed mainly 
+                        of carbon dioxide and sulfuric acid. Its dense atmosphere creates intense 
+                        greenhouse effect, making Venus the hottest planet in the solar system despite 
+                        being farther from the Sun.
 Rotation period:        243 earth days
 Revolution time:        225 earth days
 Radius:                 6 051km
 Average temperature:    462 degres celcius
 
-Terre:
 
+
+
+
+                Terre:
+
+Overview:               Planet Earth, the third rock from the Sun, is a mesmerizing blue 
+                        gem floating in the vastness of space. It is the only known celestial 
+                        body to harbor life, adorned with sprawling oceans, majestic mountains, 
+                        lush forests, and diverse ecosystems.
 Rotation period:        24h
 Revolution time:        365.25 earth days
 Radius:                 6 371km
 Average temperature:    15 degres celcius
 
-Mars:
 
+
+
+
+                Mars:
+
+Overview:               Mars, often nicknamed the "Red Planet" due to its distinctive color, 
+                        is a rocky planet with arid deserts, craters, extinct volcanoes, 
+                        and polar ice caps. Exploration missions have revealed evidence of its 
+                        tumultuous geological past, including hints suggesting the presence of 
+                        past liquid water on its surface.
 Rotation period:        24.6h
 Revolution time:        687 earth days
 Radius:                 3 389.5km
 Average temperature:    -63 degres
 
-Jupiter
 
+
+
+
+                Jupiter
+
+Overview:               Jupiter is the largest planet in the solar system, dominated by a turbulent 
+                        atmosphere of gas and clouds. It boasts a massive Great Red Spot, a gigantic 
+                        anticyclonic storm, as well as parallel atmospheric bands and fascinating moons, 
+                        with the most notable being Io, Europa, Ganymede, and Callisto.
 Rotation period:        9.9h
 Revolution time:        11.9 earth YEARS
 Radius:                 69.911km
 Average temperature:    -145 degres
 
-Saturne:
 
+
+
+
+                Saturne:
+
+Overview:               Saturn is famous for its magnificent rings, composed of billions of particles of 
+                        ice and rock. Beneath its impressive appearance, Saturn is a gas giant with powerful 
+                        winds and a complex internal structure. It also has numerous moons, with Titan being 
+                        the second largest moon in the solar system.
 Rotation period:        10.7h
 Revolution time:        29.5 earth YEARS
 Radius:                 58 232km
 Average temperature:    -178 degres
 
-Uranus:
 
+
+
+
+                Uranus:
+
+Overview:               Uranus is distinguished by its tilted axis of rotation, making it appear to lie on its 
+                        side relative to the plane of its orbit. This ice giant is primarily composed of hydrogen, 
+                        helium, and methane. It has rings and moons, including Miranda, which displays fascinating 
+                        surface features
 Rotation period:        17.2h
 Revolution time:        84 earth YEARS
 Radius:                 25 363km
 Average temperature:    -216 degres
 
+
+
+
+
 Neptune:
 
+Overview:               Neptune, the furthest major planet from the Sun, is an ice giant with a deep blue atmosphere 
+                        composed mainly of hydrogen, helium, and methane. It is known for its violent winds and large 
+                        dark spot. Neptune also has rings and moons, with Triton orbiting in the opposite direction to 
+                        the planet's rotation.
 Rotation period:        16.1h
 Revolution time:        164.8 earth YEARS
 Radius:                 24 622km
 Average temperature:    -214 degres
 
 
+Soleil:
 
+Overview:               The Sun, located at the center of the solar system, is a medium-sized star with a yellow color. 
+                        It is primarily composed of hydrogen and helium, with thermonuclear reactions at its core 
+                        generating a vast amount of energy in the form of light and heat. The Sun is known for its dynamic 
+                        solar activity, including sunspots, solar flares, and solar winds. It also has a system of planets 
+                        orbiting around it, with Earth situated at an ideal distance to support life. The Sun exerts a 
+                        tremendous gravitational influence on the celestial bodies within our solar system.
+Rotation period:        N/A
+Revolution time:        N/A
+Radius:                 696 340km
+Average temperature:    5 500 degres
