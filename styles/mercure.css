@@ -125,7 +125,7 @@ body {
     font-size: 40px;
     color: white;
     text-align: right;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-right: 150px;
     margin-bottom: 20px;
 }
@@ -163,20 +163,20 @@ body {
 }
 
 .separationLine1 {
-    top: 460px;
+    top: 440px;
 
 }
 
 .separationLine2 {
-    top: 580px;
+    top: 560px;
 }
 
 .separationLine3 {
-    top: 700px;
+    top: 680px;
 }
 
 .separationLine4 {
-    top: 820px;
+    top: 800px;
 }
 
 .content1, .content2, .content3, .content4 {
