@@ -1,4 +1,72 @@
 
+@font-face {
+    font-family: 'RBlack';
+    src: url('../assets/font/Roboto/Roboto-Black.ttf') format(truetype);
+}
+
+
+@font-face {
+    font-family: 'Rblacktalic';
+    src: url('../assets/font/Roboto/Roboto-BlackItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RBold';
+    src: url('../assets/font/Roboto/Roboto-Bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RboldItalic';
+    src: url('../assets/font/Roboto/Roboto-BoldItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Ritalic';
+    src: url('../assets/font/Roboto/Roboto-Italic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rlight';
+    src: url('../assets/font/Roboto/Roboto-Light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RlightItalic';
+    src: url('../assets/font/Roboto/lightItalic') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rmedium';
+    src: url('../assets/font/Roboto/Roboto-Medium.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RmediumItalic';
+    src: url('../assets/font/Roboto/Roboto-MediumItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rregular';
+    src: url('../assets/font/Roboto/Roboto-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rthin';
+    src: url('../assets/font/Roboto/Roboto-Thin.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RthinItalic';
+    src: url('../assets/font/Roboto/Roboto-ThinItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: '';
+    src: url('../assets/font/Roboto/') format(truetype);
+}
+
+
+
 body {
     background-color: #08052B;
 }
@@ -53,7 +121,7 @@ body {
 }
 
 .right h2 {
-    font-family: sans-serif;
+    font-family: 'Rbold';
     font-size: 40px;
     color: white;
     text-align: right;
@@ -64,95 +132,26 @@ body {
 
 #overview {
     color: white;
+    /* text-justify: center; */
     display: inline-block;
-    width: 450px;
+    width: 500px;
     text-align: right;
     padding-left: 310px;
-    font-family: sans-serif;
-    font-size: 18px;
+    font-family: 'Rlight';
+    font-size: 24px;
     word-spacing: 7px;
+    /* padding-bottom: 20px; */
 }
 
 
 
 /* INSIDE BLOC/ VALUES */
 
-.valueLeft, .valueRight {
+.valueLeft {
     color: white;
-    font-family: sans-serif;
+    font-family: 'Rlight';
     font-size: 30px;
 }
-
-
-
-.number, .days, .rotation, .time, .radius, .average, .temp {
-    color: white;
-    font-family: sans-serif;
-    font-size: 30px;
-}
-
-.rotation {
-    text-align: right;
-}
-
-.time {
-    padding-left: 345px;    
-}
-
-.radius {
-    padding-left: 300px;    
-}
-
-.average {
-    padding-left: 265px;    
-}
-
-.temp {
-    color:white;
-    font-family: sans-serif;
-    padding-left: 320px;    
-    font-size: 30px;
-}
-
-
-
-
-
-
-
-
-
-.content {
-    display: flex;
-    padding-top: 20px;
-    margin-left: 270px;
-    width: 500px;
-}
-
-
-.content2, .content3, .content4 {
-    display: flex;
-    padding-top: 50px;
-    margin-left: 270px;
-    width: 500px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .separationLine1, .separationLine2, .separationLine3, .separationLine4 {
@@ -160,21 +159,62 @@ body {
     width: 500px;
     height: 0;
     border-top: 2px solid white;
-    left: 265px;
+    left: 312px;
 }
 
 .separationLine1 {
-    top: 380px;
+    top: 460px;
+
 }
 
 .separationLine2 {
-    top: 500px;
+    top: 580px;
 }
 
 .separationLine3 {
-    top: 620px;
+    top: 700px;
 }
 
 .separationLine4 {
-    top: 740px;
+    top: 820px;
 }
+
+.content1, .content2, .content3, .content4 {
+    display: flex;
+    margin-left: 270px;
+    width: 500px;
+    padding-left: 50px;
+    margin-bottom: -10px;
+}
+
+
+#value1, #value2, #value3, #value4 {
+    color: white;
+    font-family: 'RBlack';
+    font-size: 30px;
+    text-align: right;
+}
+
+
+#value1 {
+    padding-left: 270px;
+}
+
+#value2 {
+    padding-left: 230px;
+}
+
+#value3 {
+    padding-left: 310px;
+}
+
+#value4 {
+    padding-left: 270px;
+}
+
+
+
+
+
+
+
