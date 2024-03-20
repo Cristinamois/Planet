@@ -1,0 +1,64 @@
+!!!!! LES DEGRES SONT APPROXIMATIFS!!!!!
+
+
+
+Mercure:
+
+Rotation period:        58.6 Earth days
+Revolution time:        88 Earth days
+Radius:                 2 439.7km
+Average temperature:    day: 427 degres(800 Fahreneit), night: -173 degres(-280 fahreneit) -> calcul : (427°C + (-173°C)) / 2 =            127°C  
+
+
+
+Venus:
+
+Rotation period:        243 earth days
+Revolution time:        225 earth days
+Radius:                 6 051km
+Average temperature:    462 degres celcius
+
+Terre:
+
+Rotation period:        24h
+Revolution time:        365.25 earth days
+Radius:                 6 371km
+Average temperature:    15 degres celcius
+
+Mars:
+
+Rotation period:        24.6h
+Revolution time:        687 earth days
+Radius:                 3 389.5km
+Average temperature:    -63 degres
+
+Jupiter
+
+Rotation period:        9.9h
+Revolution time:        11.9 earth YEARS
+Radius:                 69.911km
+Average temperature:    -145 degres
+
+Saturne:
+
+Rotation period:        10.7h
+Revolution time:        29.5 earth YEARS
+Radius:                 58 232km
+Average temperature:    -178 degres
+
+Uranus:
+
+Rotation period:        17.2h
+Revolution time:        84 earth YEARS
+Radius:                 25 363km
+Average temperature:    -216 degres
+
+Neptune:
+
+Rotation period:        16.1h
+Revolution time:        164.8 earth YEARS
+Radius:                 24 622km
+Average temperature:    -214 degres
+
+
+
