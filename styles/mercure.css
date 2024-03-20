@@ -48,9 +48,8 @@ body {
     background-color: #08052B;
     border: 1px;
     position: relative;
-    /* display: flex; */
-    /* padding: 10px; */
-    /* margin: 50px; */
+    display: flex;
+    flex-direction: column;
 }
 
 .right h2 {
@@ -71,10 +70,6 @@ body {
     padding-left: 310px;
     font-family: sans-serif;
     font-size: 18px;
-    /* text-align: right; */
-    /* padding-left: 400px; */
-    /* text-align: right; */
-    /* padding: 15px; */
     word-spacing: 7px;
 }
 
@@ -82,57 +77,34 @@ body {
 
 /* INSIDE BLOC/ VALUES */
 
-
-.valueLeft {
-    /* text-align: right; */
-
+.valueLeft, .valueRight {
     color: white;
-}
-
-.valueRight {
-    padding-right: 500px;
-    color: white;
-}
-
-.number {
-    color:white;
     font-family: sans-serif;
     font-size: 30px;
-    /* padding-top: 500p; */
 }
 
-.days {
-    color:white;
+
+
+.number, .days, .rotation, .time, .radius, .average, .temp {
+    color: white;
     font-family: sans-serif;
     font-size: 30px;
 }
 
 .rotation {
-    color:white;
-    font-family: sans-serif;
     text-align: right;
-    font-size: 30px;
 }
 
 .time {
-    color:white;
-    font-family: sans-serif;
     padding-left: 345px;    
-    font-size: 30px;
 }
 
 .radius {
-    color:white;
-    font-family: sans-serif;
     padding-left: 300px;    
-    font-size: 30px;
 }
 
 .average {
-    color:white;
-    font-family: sans-serif;
     padding-left: 265px;    
-    font-size: 30px;
 }
 
 .temp {
@@ -142,91 +114,67 @@ body {
     font-size: 30px;
 }
 
+
+
+
+
+
+
+
+
 .content {
     display: flex;
     padding-top: 20px;
     margin-left: 270px;
     width: 500px;
-    /* border: 1px solid black; */
 }
 
-.content2 {
+
+.content2, .content3, .content4 {
     display: flex;
     padding-top: 50px;
     margin-left: 270px;
     width: 500px;
-    /* border: 1px solid black; */
 }
 
-.content3 {
-    display: flex;
-    padding-top: 50px;
-    margin-left: 270px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.separationLine1, .separationLine2, .separationLine3, .separationLine4 {
+    position: absolute;
     width: 500px;
-    /* border: 1px solid black; */
+    height: 0;
+    border-top: 2px solid white;
+    left: 265px;
 }
-
-/* .content4 {
-    display: flex;
-    padding-top: 100px;
-    margin-left: 270px;
-    width: 500px;
-    /* border: 1px solid black; */
-/* } */
-
-.content4 {
-    display: flex;
-    padding-top: 50px;
-    margin-left: 270px;
-    width: 500px;
-    /* border: 1px solid black; */
-}
-
-/* ------------------- */
-
-
-/* ---------------- */
-
-
-/* ---------------- */
-
-
-/* DESSINS */
 
 .separationLine1 {
-    position: absolute; /* Permet de positionner la ligne par rapport au conteneur */
-    top: 380px; /* Coordonnée Y de départ */
-    left: 265px; /* Coordonnée X de départ */
-    width: 500px; /* Longueur de la ligne */
-    height: 0; /* Hauteur de la ligne (0 pour une ligne horizontale) */
-    border-top: 2px solid white;
+    top: 380px;
 }
 
 .separationLine2 {
-    position: absolute; /* Permet de positionner la ligne par rapport au conteneur */
-    top: 500px; /* Coordonnée Y de départ */
-    left: 265px; /* Coordonnée X de départ */
-    width: 500px; /* Longueur de la ligne */
-    height: 0; /* Hauteur de la ligne (0 pour une ligne horizontale) */
-    border-top: 2px solid white;
+    top: 500px;
 }
 
 .separationLine3 {
-    position: absolute; /* Permet de positionner la ligne par rapport au conteneur */
-    top: 620px; /* Coordonnée Y de départ */
-    left: 265px; /* Coordonnée X de départ */
-    width: 500px; /* Longueur de la ligne */
-    height: 0; /* Hauteur de la ligne (0 pour une ligne horizontale) */
-    border-top: 2px solid white;
+    top: 620px;
 }
 
 .separationLine4 {
-    position: absolute; /* Permet de positionner la ligne par rapport au conteneur */
-    top: 740px; /* Coordonnée Y de départ */
-    left: 265px; /* Coordonnée X de départ */
-    width: 500px; /* Longueur de la ligne */
-    height: 0; /* Hauteur de la ligne (0 pour une ligne horizontale) */
-    border-top: 2px solid white;
+    top: 740px;
 }
-
-/* -------- */
