@@ -70,6 +70,8 @@
 
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #08052B;
 }
 
@@ -224,7 +226,7 @@ body {
 
 .ligne-brisee {
     width: 260px;
-    border-bottom: 3px solid white; /* Épaisseur et couleur de votre ligne */
+    border-bottom: 2px solid white; /* Épaisseur et couleur de votre ligne */
     position: absolute;
     margin-left: 42%;
     top: 118px;
@@ -234,7 +236,7 @@ body {
 
 .suite-ligne {
     width: 810px;
-    border-bottom: 3px solid white; /* Épaisseur et couleur de votre ligne */
+    border-bottom: 2px solid white; /* Épaisseur et couleur de votre ligne */
     position: absolute;
     /* margin-left: 8%; */
     top: 66px;
@@ -242,4 +244,40 @@ body {
     transform: translateY(-50%);
 }
 
+header {
+    /* grid-column: 1 / -1; */
+    padding: 1.5%;
+    background-color: transparent;
+    /* background-color: grey; */
+    /* border-top: #fff 1px; */
+    border-bottom: 0.5px solid grey;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+header h1 {
+    margin: 0;
+    font-family: 'RBold', 'Times New Roman', Times, serif;
+    font-size: 250%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'RLight', 'Times New Roman', Times, serif;
+    font-size: 110%;
+}
