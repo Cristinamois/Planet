@@ -224,24 +224,31 @@ nav ul li a {
     padding-top: 10px;
 }
 
-
 .ligne-brisee {
-    width: 260px;
-    border-bottom: 2px solid white;
     position: absolute;
-    margin-left: 42%;
-    top: 118px;
-    transform-origin: 0 0;
-    transform: translateY(-50%) rotate(130deg);
+    width: 200px;
+    height: 200px
 }
 
-.suite-ligne {
-    width: 810px;
-    border-bottom: 2px solid white; /* Épaisseur et couleur de votre ligne */
+.line {
     position: absolute;
-    /* margin-left: 8%; */
-    top: 66px;
-    transform-origin: 0 0; /* Point d'origine de la transformation */
-    transform: translateY(-50%);
-}
-
+    width: 650px;
+    height: 3px;
+    background-color: white;
+    top: 30%;
+    left: 490%;
+    z-index: 1;
+  
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 300px; 
+      height: 100%;
+      background-color: inherit; 
+      transform: rotate(140deg);
+      transform-origin: 0% 70%;
+    }
+  
+   
+  }
