@@ -67,6 +67,8 @@
 
 
 
+
+
 body {
     background-color: #08052B;
 }
@@ -99,11 +101,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 15%;
 }
 
 #mercureDessin {
 
-    padding-top: 50px;
+    padding-top: 10%;
 }
 
 
@@ -118,6 +121,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-right: 30%;
 }
 
 .right h2 {
@@ -125,8 +129,8 @@ body {
     font-size: 40px;
     color: white;
     text-align: right;
-    padding-top: 40px;
-    padding-right: 150px;
+    padding-top: 5%;
+    /* padding-right: 5%;   */  /*deplacer de gauche a droite, a voir*/
     margin-bottom: 20px;
 }
 
@@ -138,7 +142,7 @@ body {
     text-align: right;
     padding-left: 310px;
     font-family: 'Rlight';
-    font-size: 24px;
+    font-size: 22px;
     word-spacing: 7px;
     /* padding-bottom: 20px; */
 }
@@ -150,7 +154,7 @@ body {
 .valueLeft {
     color: white;
     font-family: 'Rlight';
-    font-size: 30px;
+    font-size: 22px;
 }
 
 
@@ -163,20 +167,20 @@ body {
 }
 
 .separationLine1 {
-    top: 440px;
+    top: 400px;
 
 }
 
 .separationLine2 {
-    top: 560px;
+    top: 520px;
 }
 
 .separationLine3 {
-    top: 680px;
+    top: 640px;
 }
 
 .separationLine4 {
-    top: 800px;
+    top: 760px;
 }
 
 .content1, .content2, .content3, .content4 {
@@ -197,23 +201,25 @@ body {
 
 
 #value1 {
-    padding-left: 270px;
+    padding-left: 290px;
 }
 
 #value2 {
-    padding-left: 230px;
+    padding-left: 250px;
 }
 
 #value3 {
-    padding-left: 310px;
+    padding-left: 330px;
 }
 
 #value4 {
-    padding-left: 270px;
+    padding-left: 300px;
 }
 
 
-
+#number1 {
+    padding-top: 10px;
+}
 
 
 
