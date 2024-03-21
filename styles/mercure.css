@@ -106,7 +106,7 @@ body {
 
 #mercureDessin {
 
-    padding-top: 10%;
+    /* padding-top: 10%; */
 }
 
 
@@ -130,7 +130,7 @@ body {
     color: white;
     text-align: right;
     padding-top: 5%;
-    /* padding-right: 5%;   */  /*deplacer de gauche a droite, a voir*/
+    padding-right: 2%;    /*deplacer de gauche a droite, a voir*/
     margin-bottom: 20px;
 }
 
@@ -222,5 +222,24 @@ body {
 }
 
 
+.ligne-brisee {
+    width: 260px;
+    border-bottom: 3px solid white; /* Épaisseur et couleur de votre ligne */
+    position: absolute;
+    margin-left: 42%;
+    top: 118px;
+    transform-origin: 0 0; /* Point d'origine de la transformation */
+    transform: translateY(-50%) rotate(130deg);
+}
+
+.suite-ligne {
+    width: 810px;
+    border-bottom: 3px solid white; /* Épaisseur et couleur de votre ligne */
+    position: absolute;
+    /* margin-left: 8%; */
+    top: 66px;
+    transform-origin: 0 0; /* Point d'origine de la transformation */
+    transform: translateY(-50%);
+}
 
 
