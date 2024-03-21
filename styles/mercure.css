@@ -76,174 +76,6 @@ body {
 }
 
 /* TOP MENU */
-.menu h2 {
-    color: white;
-    text-align: center;
-}
-
-/* --------- */
-
-
-
-/* MAIN CONTAINER */
-
-.mainContainer {
-    display: flex;
-    height: 100vh;
-}
-
-.left, .right {
-    flex: 1;
-}
-
-/* LEFT CONTAINER */
-
-.left {
-    background-color: #08052B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15%;
-}
-
-#mercureDessin {
-
-    /* padding-top: 10%; */
-}
-
-
-/* --------------- */
-
-
-/* RIGHT CONTAINER */
-
-.right {
-    background-color: #08052B;
-    border: 1px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-right: 30%;
-}
-
-.right h2 {
-    font-family: 'Rbold';
-    font-size: 40px;
-    color: white;
-    text-align: right;
-    padding-top: 5%;
-    padding-right: 2%;    /*deplacer de gauche a droite, a voir*/
-    margin-bottom: 20px;
-}
-
-#overview {
-    color: white;
-    /* text-justify: center; */
-    display: inline-block;
-    width: 500px;
-    text-align: right;
-    padding-left: 310px;
-    font-family: 'Rlight';
-    font-size: 22px;
-    word-spacing: 7px;
-    /* padding-bottom: 20px; */
-}
-
-
-
-/* INSIDE BLOC/ VALUES */
-
-.valueLeft {
-    color: white;
-    font-family: 'Rlight';
-    font-size: 22px;
-}
-
-
-.separationLine1, .separationLine2, .separationLine3, .separationLine4 {
-    position: absolute;
-    width: 500px;
-    height: 0;
-    border-top: 2px solid white;
-    left: 312px;
-}
-
-.separationLine1 {
-    top: 400px;
-
-}
-
-.separationLine2 {
-    top: 520px;
-}
-
-.separationLine3 {
-    top: 640px;
-}
-
-.separationLine4 {
-    top: 760px;
-}
-
-.content1, .content2, .content3, .content4 {
-    display: flex;
-    margin-left: 270px;
-    width: 500px;
-    padding-left: 50px;
-    margin-bottom: -10px;
-}
-
-
-#value1, #value2, #value3, #value4 {
-    color: white;
-    font-family: 'RBlack';
-    font-size: 30px;
-    text-align: right;
-}
-
-
-#value1 {
-    padding-left: 290px;
-}
-
-#value2 {
-    padding-left: 250px;
-}
-
-#value3 {
-    padding-left: 330px;
-}
-
-#value4 {
-    padding-left: 300px;
-}
-
-
-#number1 {
-    padding-top: 10px;
-}
-
-
-.ligne-brisee {
-    width: 260px;
-    border-bottom: 2px solid white; /* Épaisseur et couleur de votre ligne */
-    position: absolute;
-    margin-left: 42%;
-    top: 118px;
-    transform-origin: 0 0; /* Point d'origine de la transformation */
-    transform: translateY(-50%) rotate(130deg);
-}
-
-.suite-ligne {
-    width: 810px;
-    border-bottom: 2px solid white; /* Épaisseur et couleur de votre ligne */
-    position: absolute;
-    /* margin-left: 8%; */
-    top: 66px;
-    transform-origin: 0 0; /* Point d'origine de la transformation */
-    transform: translateY(-50%);
-}
-
 header {
     /* grid-column: 1 / -1; */
     padding: 1.5%;
@@ -281,3 +113,135 @@ nav ul li a {
     font-family: 'RLight', 'Times New Roman', Times, serif;
     font-size: 110%;
 }
+
+
+/* --------- */
+
+
+
+/* MAIN CONTAINER */
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+
+/* LEFT CONTAINER */
+
+.left {
+    background-color: #08052B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;
+    border-color: white; */
+}
+
+#mercureDessin {
+
+    width: 60%;
+}
+
+
+/* --------------- */
+
+
+/* RIGHT CONTAINER */
+
+.right {
+    width: 700px;
+    background-color: #08052B;
+    border: 1px;
+    position: relative;
+    flex-direction: column;
+    margin-right: 20%;
+    text-align: right;
+}
+
+.right h2 {
+    font-family: 'Rbold';
+    font-size: 40px;
+    color: white;
+    padding-top: 5%;
+    margin-bottom: 10px;
+}
+
+#overview {
+    color: white;
+    text-align: right;
+    display: inline-block;
+    width: 500px;
+    font-family: 'Rlight';
+    font-size: 22px;
+    word-spacing: 7px;
+    padding-bottom: 10px;
+}
+
+
+
+/* INSIDE BLOC/ VALUES */
+
+.valueLeft {
+    color: white;
+    font-family: 'Rlight';
+    font-size: 22px;
+    text-align: left;
+
+}
+
+
+.separationLine1, .separationLine2, .separationLine3, .separationLine4 {
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 0;
+    border-top: 2px solid white;
+}
+
+.content1, .content2, .content3, .content4 {
+    display: flex;
+    text-align: right;
+    margin-left: 200px;
+    width: 500px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+}
+
+
+#value1, #value2, #value3, #value4 {
+    position: absolute;
+    right: 0;
+    color: white;
+    font-family: 'RBlack';
+    font-size: 30px;
+}
+
+
+
+#number1 {
+    padding-top: 10px;
+}
+
+
+.ligne-brisee {
+    width: 260px;
+    border-bottom: 2px solid white;
+    position: absolute;
+    margin-left: 42%;
+    top: 118px;
+    transform-origin: 0 0;
+    transform: translateY(-50%) rotate(130deg);
+}
+
+.suite-ligne {
+    width: 810px;
+    border-bottom: 2px solid white; /* Épaisseur et couleur de votre ligne */
+    position: absolute;
+    /* margin-left: 8%; */
+    top: 66px;
+    transform-origin: 0 0; /* Point d'origine de la transformation */
+    transform: translateY(-50%);
+}
+
