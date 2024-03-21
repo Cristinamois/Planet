@@ -1,4 +1,217 @@
 
+@font-face {
+    font-family: 'RBlack';
+    src: url('../assets/font/Roboto/Roboto-Black.ttf') format(truetype);
+}
+
+
+@font-face {
+    font-family: 'Rblacktalic';
+    src: url('../assets/font/Roboto/Roboto-BlackItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RBold';
+    src: url('assets/font/Roboto/Roboto-Bold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RboldItalic';
+    src: url('../assets/font/Roboto/Roboto-BoldItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Ritalic';
+    src: url('../assets/font/Roboto/Roboto-Italic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rlight';
+    src: url('assets/font/Roboto/Roboto-Light.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RlightItalic';
+    src: url('../assets/font/Roboto/lightItalic') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rmedium';
+    src: url('../assets/font/Roboto/Roboto-Medium.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RmediumItalic';
+    src: url('../assets/font/Roboto/Roboto-MediumItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rregular';
+    src: url('../assets/font/Roboto/Roboto-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Rthin';
+    src: url('../assets/font/Roboto/Roboto-Thin.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RthinItalic';
+    src: url('../assets/font/Roboto/Roboto-ThinItalic.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: '';
+    src: url('../assets/font/Roboto/') format(truetype);
+}
+
 body {
+    margin: 0;
+    padding: 0;
     background-color: #08052B;
+}
+
+p {
+    color: antiquewhite;
+}
+
+header {
+    /* grid-column: 1 / -1; */
+    padding: 20px;
+    background-color: transparent;
+    /* background-color: grey; */
+    /* border-top: #fff 1px; */
+    border-bottom: 0.5px solid grey;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'RBold', 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'RLight', 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+footer {
+    /* grid-column: 1 / -1; */
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container img {
+    width: 300px;
+    height: 300px;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Prend 100% de la hauteur de la fenêtre */
+    position: relative; /* Positionnement relatif pour positionner l'image absolument */
+}
+
+.container img {
+    position: absolute;
+}
+
+/* sun */
+.container img:first-child { 
+    width: 200px; /* 200px au lieu d'env 300px */
+    height: 200px;
+}
+
+/* mercury */
+.container img:nth-child(2) {
+    width: 30px; /* 30px au lieu de 50px*/
+    height: 30px;
+    right: 500px;
+    top: 250px;
+}
+
+/* earth */
+.container img:nth-child(3) {
+    width: 63px; /* 63px au lieu de 83px */
+    height: 63px;
+    right: 350px;
+    top: 350px;
+}
+
+/* jupiter */
+.container img:nth-child(4) {
+    width: 150px; /* px au lieu de 176px */
+    height: 150px;
+    right: 200px;
+    top: 150px;
+}
+
+/* uranus */
+.container img:nth-child(5) {
+    width: 75px; /* px au lieu de 95px */
+    height: 105px;
+    right: 100px;
+    top: 350px;
+    transform: rotate(45deg);
+}
+
+/* venus */
+.container img:nth-child(6) {
+    width: 53px; /*au lieu de 73px */
+    height: 53px;
+    left: 450px;
+    top: 300px;
+}
+
+/* mars */
+.container img:nth-child(7) {
+    width: 48px; /*au lieu de 68x */
+    height: 48px;
+    left: 350px;
+    top: 400px;
+}
+
+/* saturne */
+.container img:nth-child(8) {
+    width: 126px; /*au lieu de 146px et 140px */
+    height: 120px;
+    left: 175px;
+    top: 200px;
+}
+
+/* neptune */
+.container img:nth-child(9) {
+    width: 92px; /*au lieu de 112px */
+    height: 92px;
+    left: 75px;
+    top: 350px;
 }
