@@ -46,6 +46,10 @@ nav ul li a {
     font-size: 110%;
 }
 
+/* .link {
+
+} */
+
 
 /* --------- */
 
@@ -135,6 +139,7 @@ nav ul li a {
     width: 500px;
     height: 0;
     border-top: 2px solid white;
+    /* color: red; */
 }
 
 .content1, .content2, .content3, .content4 {
