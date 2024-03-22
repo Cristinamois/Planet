@@ -90,10 +90,10 @@ nav ul li a {
 
 h2 {
     font-family: 'Rbold';
-    font-size: 40px;
+    font-size: 270%;
     color: red;
     padding-top: 5%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 #value1, #value2, #value3, #value4 {
@@ -101,22 +101,22 @@ h2 {
     right: 0;
     color: red;
     font-family: 'RBlack';
-    font-size: 30px;
+    font-size: 200%; 
 }
 
 .valueLeft {
     color: red;
     font-family: 'Rlight';
-    font-size: 22px;
+    font-size: 140%;
     text-align: left;
 
 }
 
 #overview {
     color: red;
-    text-align: right;
+    text-align: justify;
     display: inline-block;
-    width: 500px;
+    width: 53%;
     font-family: 'Rlight';
     font-size: 18px;
     word-spacing: 7px;
@@ -126,7 +126,7 @@ h2 {
 .separationLine1, .separationLine2, .separationLine3, .separationLine4 {
     /* position: absolute; */
     /* right: 0; */
-    width: 500px;
+    width: 50%;
     /* height: 0; */
     border-top: 2px solid red;
 }
