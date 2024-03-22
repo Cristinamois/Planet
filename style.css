@@ -91,30 +91,30 @@ footer {
 .container img:nth-child(2) {
     width: 3%; /* 30px au lieu de 50px*/
     height: auto;
-    right: 500px;
-    top: 250px;
+    right: 30%;
+    top: 35%;
 }
 
 /* earth */
 .container img:nth-child(3) {
-    width: 63px; /* 63px au lieu de 83px */
-    height: 63px;
-    right: 350px;
-    top: 350px;
+    width: 4%; /* 63px au lieu de 83px */
+    height: auto;
+    right: 21%;
+    top: 50%;
 }
 
 /* jupiter */
 .container img:nth-child(4) {
-    width: 150px; /* px au lieu de 176px */
-    height: 150px;
-    right: 200px;
-    top: 150px;
+    width: 10%; /* px au lieu de 176px */
+    height: auto;
+    right: 10%;
+    top: 20%;
 }
 
 /* uranus */
 .container img:nth-child(5) {
-    width: 75px; /* px au lieu de 95px */
-    height: 105px;
+    width: 5%; /* px au lieu de 95px */
+    height: auto;
     right: 100px;
     top: 350px;
     transform: rotate(45deg);
