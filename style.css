@@ -151,3 +151,25 @@ footer {
     left: 75px;
     top: 350px;
 }
+
+.ligne-brisee {
+    position: relative;
+    width: 100px; /* Longueur totale de la ligne */
+    height: 2px; /* Épaisseur de la ligne */
+    background-color: white; /* Couleur de la ligne */
+    top: 100px;
+    left: 100px;
+
+    /* Pseudo-élément représentant la première partie de la ligne */
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px; /* Longueur de la première partie de la ligne */
+      height: 100%; /* Hauteur de la première partie de la ligne */
+      background-color: inherit; /* Couleur de la ligne héritée */
+      transform: rotate(135deg); /* Rotation de 45 degrés */
+      transform-origin: 0% 0%; /* Point de rotation */
+    }
+  }
