@@ -14,7 +14,7 @@ body {
     grid-gap: 0px;
     min-height: 100vh;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     /* font-family: Arial, sans-serif; */
     background-color: #08052B;
 }
@@ -61,64 +61,41 @@ nav ul li a {
 
 /* --------- */
 
-
-
 /* MAIN CONTAINER */
-
-/* .mainContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100vh;
-    max-width: 100%;
-    margin: 0 auto;
-} */
 
 .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
+    margin-bottom: 50px;
 }
 
 /* Nouveau right */
 
 .article {
+    width: 60%;
     display: grid;
     grid-template-columns: 1fr;
     padding: 0px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 h2 {
     font-family: 'Rbold';
-    font-size: 40px;
-    color: red;
+    font-size: 180%;
+    color: white;
     padding-top: 5%;
     margin-bottom: 10px;
-}
-
-#value1, #value2, #value3, #value4 {
-    position: absolute;
-    right: 0;
-    color: red;
-    font-family: 'RBlack';
-    font-size: 30px;
-}
-
-.valueLeft {
-    color: red;
-    font-family: 'Rlight';
-    font-size: 22px;
-    text-align: left;
-
+    text-align: right;
 }
 
 #overview {
-    color: red;
-    text-align: right;
+    color: white;
+    text-align: justify;
     display: inline-block;
-    width: 500px;
+    /* width: 500px; */
     font-family: 'Rlight';
-    font-size: 18px;
+    font-size: 100%;
     word-spacing: 7px;
     padding-bottom: 10px;
 }
@@ -126,24 +103,58 @@ h2 {
 .separationLine1, .separationLine2, .separationLine3, .separationLine4 {
     /* position: absolute; */
     /* right: 0; */
-    width: 500px;
+    /* width: 77%px; */
     /* height: 0; */
     border-top: 2px solid red;
 }
 
-/* .content1, .content2, .content3, .content4 {
-    display: flex;
+/* tableau */
+
+th {
+    /* font-family: 'Outfit-Regular', 'Arial', Helvetica, sans-serif; */
+    color: white;
+    border-bottom: 1px solid red;
+    /* padding-left: 4px;
+    padding-right: 4px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+    font-family: 'Rlight';
+    font-size: 180%;
+  }
+  
+  td {
+    color: white;
+    font-family: 'RBlack';
+    /* font-family: 'Outfit-Bold', 'Arial', Helvetica, sans-serif; */
     text-align: right;
-    margin-left: 200px;
-    width: 500px;
-    margin-top: -20px;
-    padding-bottom: 30px;
-} */
+    font-size: 180%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  /* th, td {
+    padding: 8px;
+    text-align: left;
+  } */
+  
+  tr:not(:last-child) td {
+    border-bottom: 1px solid white;
+  }
+  
+  tr:last-child th {
+    border-bottom: none;
+  }
+
 
 /* nouveau left */
 
 #mercureDessin {
-    width: 60%;
+    width: 50%;
     min-width: 30%;
 }
 
@@ -156,6 +167,27 @@ h2 {
     border-color: white; */
 }
 
+.shape {
+    position: absolute;
+    z-index: 1;
+    top: 175px;
+    left: 530px;
+    height: 120px;
+    width: 440px;
+    border-top: 2px solid white; 
+    border-left: 2px solid white;
+    -moz-transform: skew(140deg); 
+    -webkit-transform: skew(140deg);
+    transform: skew(140deg);
+}
+
+footer {
+    grid-column: 1 / -1;
+    padding: 0.7em;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
 
 /* #overview {
     color: red;
@@ -269,21 +301,47 @@ h2 {
     font-size: 30px;
 } */
 
+/* .valueLeft {
+    color: red;
+    font-family: 'Rlight';
+    font-size: 22px;
+    text-align: left;
+} */
 
-#number1 {
+
+/* .mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+} */
+
+/* #value {
+    /* position: absolute;
+    /* align-items: right;
+    text-align: right;
+    right: 0;
+    color: red;
+    font-family: 'RBlack';
+    font-size: 30px;
+} */
+/* 
+#number {
     padding-top: 10px;
-}
+    color: red;
+    font-family: 'Rlight';
+    font-size: 22px;
+    text-align: left;
+} */
 
-.shape {
-    position: absolute;
-    z-index: 1;
-    top: 180px;
-    left: 400px;
-    height: 100px;
-    width: 500px;
-    border-top: 2px solid red; 
-    border-left: 2px solid red;
-    -moz-transform: skew(145deg); 
-    -webkit-transform: skew(145deg);
-    transform: skew(145deg);
-}
+/* .content1, .content2, .content3, .content4 { */
+    /* display: flex; */
+    /* border: 1px solid purple; */
+    /* border-color: purple; */
+    /* text-align: right;  */
+    /* margin-left: 200px; */
+    /* width: 500px; */
+    /* margin-top: -20px; */
+    /* padding-bottom: 30px; */
+/* } */
