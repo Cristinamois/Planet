@@ -1,9 +1,21 @@
 
 @import url('../assets/font/font.css');
 
-body {
+/* body {
     margin: 0;
     padding: 0;
+    background-color: #08052B;
+} */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 0px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0px;
+    /* font-family: Arial, sans-serif; */
     background-color: #08052B;
 }
 
@@ -53,18 +65,89 @@ nav ul li a {
 
 /* MAIN CONTAINER */
 
-.mainContainer {
+/* .mainContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
     max-width: 100%;
     margin: 0 auto;
+} */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
 }
 
+/* Nouveau right */
 
-/* LEFT CONTAINER */
+.article {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    background-color: #fff;
+}
 
-.left {
+h2 {
+    font-family: 'Rbold';
+    font-size: 40px;
+    color: red;
+    padding-top: 5%;
+    margin-bottom: 10px;
+}
+
+#value1, #value2, #value3, #value4 {
+    position: absolute;
+    right: 0;
+    color: red;
+    font-family: 'RBlack';
+    font-size: 30px;
+}
+
+.valueLeft {
+    color: red;
+    font-family: 'Rlight';
+    font-size: 22px;
+    text-align: left;
+
+}
+
+#overview {
+    color: red;
+    text-align: right;
+    display: inline-block;
+    width: 500px;
+    font-family: 'Rlight';
+    font-size: 18px;
+    word-spacing: 7px;
+    padding-bottom: 10px;
+}
+
+.separationLine1, .separationLine2, .separationLine3, .separationLine4 {
+    /* position: absolute; */
+    /* right: 0; */
+    width: 500px;
+    /* height: 0; */
+    border-top: 2px solid red;
+}
+
+/* .content1, .content2, .content3, .content4 {
+    display: flex;
+    text-align: right;
+    margin-left: 200px;
+    width: 500px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+} */
+
+/* nouveau left */
+
+#mercureDessin {
+    width: 60%;
+    min-width: 30%;
+}
+
+.image {
     background-color: #08052B;
     display: flex;
     justify-content: center;
@@ -73,11 +156,42 @@ nav ul li a {
     border-color: white; */
 }
 
-#mercureDessin {
 
+/* #overview {
+    color: red;
+    text-align: right;
+    display: inline-block;
+    width: 500px;
+    font-family: 'Rlight';
+    font-size: 22px;
+    word-spacing: 7px;
+    padding-bottom: 10px;
+} */
+
+/* .separationLine1, .separationLine2, .separationLine3, .separationLine4 {
+    position: absolute;
+    right: 0;
+    width: 500px;
+    height: 0;
+    border-top: 2px solid red;
+} */
+
+
+/* LEFT CONTAINER */
+
+/* .left {
+    background-color: #08052B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-color: white;
+} */
+
+/* #mercureDessin {
     width: 60%;
-    /* min-width: 30%; */
-}
+    min-width: 30%;
+} */
 
 
 /* --------------- */
@@ -85,7 +199,7 @@ nav ul li a {
 
 /* RIGHT CONTAINER */
 
-.right {
+/* .right {
     width: 700px;
     background-color: #08052B;
     border: 1px;
@@ -94,19 +208,19 @@ nav ul li a {
     margin-right: 20%;
     text-align: right;
     border: 1px;
-    border-color: 1px solid white;
+    border-color: 1px solid red;
 }
 
 .right h2 {
     font-family: 'Rbold';
     font-size: 40px;
-    color: white;
+    color: red;
     padding-top: 5%;
     margin-bottom: 10px;
-}
+} */
 
-#overview {
-    color: white;
+/* #overview {
+    color: red;
     text-align: right;
     display: inline-block;
     width: 500px;
@@ -114,47 +228,46 @@ nav ul li a {
     font-size: 22px;
     word-spacing: 7px;
     padding-bottom: 10px;
-}
+} */
 
 
 
 /* INSIDE BLOC/ VALUES */
 
-.valueLeft {
+/* .valueLeft {
     color: white;
     font-family: 'Rlight';
     font-size: 22px;
     text-align: left;
 
-}
+} */
 
 
-.separationLine1, .separationLine2, .separationLine3, .separationLine4 {
+/* .separationLine1, .separationLine2, .separationLine3, .separationLine4 {
     position: absolute;
     right: 0;
     width: 500px;
     height: 0;
-    border-top: 2px solid white;
-}
+    border-top: 2px solid red;
+} */
 
-.content1, .content2, .content3, .content4 {
+/* .content1, .content2, .content3, .content4 {
     display: flex;
     text-align: right;
     margin-left: 200px;
     width: 500px;
     margin-top: -20px;
     padding-bottom: 30px;
-}
+} */
 
 
-#value1, #value2, #value3, #value4 {
+/* #value1, #value2, #value3, #value4 {
     position: absolute;
     right: 0;
     color: white;
     font-family: 'RBlack';
     font-size: 30px;
-}
-
+} */
 
 
 #number1 {
@@ -168,8 +281,8 @@ nav ul li a {
     left: 400px;
     height: 100px;
     width: 500px;
-    border-top: 2px solid white; 
-    border-left: 2px solid white;
+    border-top: 2px solid red; 
+    border-left: 2px solid red;
     -moz-transform: skew(145deg); 
     -webkit-transform: skew(145deg);
     transform: skew(145deg);
