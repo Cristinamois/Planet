@@ -115,41 +115,41 @@ footer {
 .container img:nth-child(5) {
     width: 5%; /* px au lieu de 95px */
     height: auto;
-    right: 100px;
-    top: 350px;
+    right: 6%;
+    top: 51%;
     transform: rotate(45deg);
 }
 
 /* venus */
 .container img:nth-child(6) {
-    width: 53px; /*au lieu de 73px */
-    height: 53px;
-    left: 450px;
-    top: 300px;
+    width: 3%; /*au lieu de 73px */
+    height: auto;
+    left: 27%;
+    top: 41%;
 }
 
 /* mars */
 .container img:nth-child(7) {
-    width: 48px; /*au lieu de 68x */
-    height: 48px;
-    left: 350px;
-    top: 400px;
+    width: 3%; /*au lieu de 68x */
+    height: auto;
+    left: 21%;
+    top: 55%;
 }
 
 /* saturne */
 .container img:nth-child(8) {
-    width: 126px; /*au lieu de 146px et 140px */
-    height: 120px;
-    left: 175px;
-    top: 200px;
+    width: 8%; /*au lieu de 146px et 140px */
+    height: auto;
+    left: 10%;
+    top: 27%;
 }
 
 /* neptune */
 .container img:nth-child(9) {
-    width: 92px; /*au lieu de 112px */
-    height: 92px;
-    left: 75px;
-    top: 350px;
+    width: 6%; /*au lieu de 112px */
+    height: auto;
+    left: 4%;
+    top: 50%;
 }
 
 .ligne-brisee {
