@@ -83,14 +83,14 @@ footer {
 
 /* sun */
 .container img:first-child { 
-    width: 200px; /* 200px au lieu d'env 300px */
-    height: 200px;
+    width: 15%; /* 200px au lieu d'env 300px */
+    height: auto;
 }
 
 /* mercury */
 .container img:nth-child(2) {
-    width: 30px; /* 30px au lieu de 50px*/
-    height: 30px;
+    width: 3%; /* 30px au lieu de 50px*/
+    height: auto;
     right: 500px;
     top: 250px;
 }
