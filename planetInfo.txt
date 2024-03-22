@@ -2,7 +2,7 @@
 
 
 
-                Mercure:
+                Mercure // DONE:
 
 Overview:               Mercury, the closest planet to the Sun, is a rocky sphere pockmarked 
                         with craters resulting from meteorite impacts. Its hostile environment is 
@@ -16,7 +16,7 @@ Average temperature:    day: 427 degres(800 Fahreneit), night: -173 degres(-280 
 
 
 
-                Venus:
+                Venus // DONE:
 
 Overview:               Venus, often referred to as Earth's "sister planet" due to its similar size 
                         and composition, is a planet shrouded in a thick atmosphere composed mainly 
@@ -32,7 +32,7 @@ Average temperature:    462 degres celcius
 
 
 
-                Terre:
+                Terre // DONE:
 
 Overview:               Planet Earth, the third rock from the Sun, is a mesmerizing blue 
                         gem floating in the vastness of space. It is the only known celestial 
@@ -47,7 +47,7 @@ Average temperature:    15 degres celcius
 
 
 
-                Mars:
+                Mars // DONE:
 
 Overview:               Mars, often nicknamed the "Red Planet" due to its distinctive color, 
                         is a rocky planet with arid deserts, craters, extinct volcanoes, 
@@ -63,7 +63,7 @@ Average temperature:    -63 degres
 
 
 
-                Jupiter
+                Jupiter // DONE:
 
 Overview:               Jupiter is the largest planet in the solar system, dominated by a turbulent 
                         atmosphere of gas and clouds. It boasts a massive Great Red Spot, a gigantic 
@@ -78,7 +78,7 @@ Average temperature:    -145 degres
 
 
 
-                Saturne:
+                Saturne // DONE:
 
 Overview:               Saturn is famous for its magnificent rings, composed of billions of particles of 
                         ice and rock. Beneath its impressive appearance, Saturn is a gas giant with powerful 
@@ -93,12 +93,12 @@ Average temperature:    -178 degres
 
 
 
-                Uranus:
+                Uranus // DONE:
 
 Overview:               Uranus is distinguished by its tilted axis of rotation, making it appear to lie on its 
                         side relative to the plane of its orbit. This ice giant is primarily composed of hydrogen, 
                         helium, and methane. It has rings and moons, including Miranda, which displays fascinating 
-                        surface features
+                        surface features.
 Rotation period:        17.2h
 Revolution time:        84 earth YEARS
 Radius:                 25 363km
