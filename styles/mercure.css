@@ -14,6 +14,15 @@ body {
 }
 
 /* TOP MENU */
+#actual {
+    font-family: 'RBold', sans-serif;
+}
+
+#otherPlanets {
+    filter: blur(2px);
+}
+
+/* TOP MENU */
 header {
     /* grid-column: 1 / -1; */
     padding: 1.5%;
@@ -27,10 +36,12 @@ header {
     align-items: center;
 }
 
-header h1 {
+header h1 {             /*REVOIR CAR REFAIT*/
+    text-decoration: none;
     margin: 0;
     font-family: 'RBold', 'Times New Roman', Times, serif;
     font-size: 250%;
+    color: white;
 }
 
 nav ul {
@@ -47,12 +58,23 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-family: 'RLight', 'Times New Roman', Times, serif;
     font-size: 110%;
-    /* transition: .5s; */
-    
+    transition: .5s;
 }
+
+nav a:hover {
+    /* transform: scale(5); */
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
+}
+
+nav a:focus {
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
+}
+
 /* nav a:hover {
     background: blueviolet;
     filter: blur(4px);
@@ -61,7 +83,6 @@ nav ul li a {
 
 /* --------- */
 
-<<<<<<< HEAD
 /* MAIN CONTAINER */
 
 .main-content {
@@ -70,72 +91,6 @@ nav ul li a {
     grid-gap: 0px;
     margin-bottom: 50px;
 }
-
-/* Nouveau right */
-
-.article {
-    width: 77%;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px;
-    /* background-color: #fff; */
-}
-
-h2 {
-    font-family: 'Rbold';
-    font-size: 180%;
-    color: white;
-    padding-top: 5%;
-    margin-bottom: 10px;
-    text-align: right;
-}
-
-#overview {
-    color: white;
-    text-align: justify;
-    display: inline-block;
-    /* width: 500px; */
-    font-family: 'Rlight';
-    font-size: 100%;
-    word-spacing: 7px;
-    padding-bottom: 10px;
-}
-
-.separationLine1, .separationLine2, .separationLine3, .separationLine4 {
-    /* position: absolute; */
-    /* right: 0; */
-    /* width: 77%px; */
-    /* height: 0; */
-    border-top: 2px solid red;
-}
-
-.content1, .content2, .content3, .content4 {
-    display: flex;
-    text-align: right;
-    /* margin-left: 200px; */
-    width: 500px;
-    margin-top: -20px;
-    padding-bottom: 30px;
-}
-
-/* nouveau left */
-
-#mercureDessin {
-    width: 50%;
-    min-width: 30%;
-}
-
-.image {
-    background-color: #08052B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid black;
-    border-color: white; */
-}
-=======
-/* ------ MAIN CONTAINER ------ */
->>>>>>> buffsum
 
 .shape {
     position: absolute;
@@ -172,7 +127,7 @@ h2 {
     font-family: 'Rbold';
     font-size: 150%;
     color: white;
-    margin-top: 13%; /*éloigné de shape */
+    margin-top: 15%; /*éloigné de shape */
     text-align: right;
 }
 
