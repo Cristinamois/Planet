@@ -21,14 +21,13 @@ header {
     align-items: center;
 }
 
-header h1 a {             /*REVOIR CAR REFAIT*/
+header h1 {             /*REVOIR CAR REFAIT*/
     text-decoration: none;
     margin: 0;
     font-family: 'RBold', 'Times New Roman', Times, serif;
-    /* font-size: 250%; */
+    font-size: 250%;
     color: white;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -196,6 +195,7 @@ nav a:focus {
     top: 30%;
     left: 490%;
     z-index: 1;
+    animation: slide 1000ms; 
   
     &::before {
       content: '';
@@ -210,6 +210,28 @@ nav a:focus {
   
    
   }
+
+@keyframes slide {
+    0% {
+        transform: scaleX(0);
+        opacity: .1;
+    }
+    17% {
+        transform: scaleX(.18);
+    }
+    24% {
+        transform: scaleX(.4);
+    }
+    46% {
+        transform: scaleX(.81);
+    }
+    85%,100% {
+        opacity: 1;
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
 
 #actual {
     font-family: 'RBold', sans-serif;
