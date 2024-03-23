@@ -94,18 +94,24 @@ footer {
 
 
 /* sun */
-.container  img:first-child { 
+#soleilPicture { 
     width: 15%; /* 200px au lieu d'env 300px */
     height: auto;
+    left: 43%;
+    top: 30%;
 }
 
+#soleilPicture:hover {
+    width: 16%;
+}
 
 #mercurePicture, #venusPicture, #terrePicture, 
 #marsPicture, #jupiterPicture, #saturnePicture, 
-#uranusPicture, #neptunePicture {
+#uranusPicture, #neptunePicture, #soleilPicture {
     height: auto;
     transition: .5s;
 }
+
 
 #mercurePicture, #venusPicture, #marsPicture {
     width: 3%;
