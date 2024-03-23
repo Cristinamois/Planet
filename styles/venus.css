@@ -85,13 +85,6 @@ nav a:focus {
 
 /* MAIN CONTAINER */
 
-.main-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0px;
-    margin-bottom: 50px;
-}
-
 .shape {
     position: absolute;
     z-index: 1;
@@ -197,6 +190,8 @@ th {
     justify-content: center;
     align-items: center;
 }
+
+/* ------ footer ------ */
 
 footer {
     grid-column: 1 / -1;
