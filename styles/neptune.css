@@ -2,9 +2,24 @@
 @import url('../assets/font/font.css');
 
 body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 0px;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    /* font-family: Arial, sans-serif; */
     background-color: #08052B;
+}
+
+/* TOP MENU */
+#actual {
+    font-family: 'RBold', sans-serif;
+}
+
+#otherPlanets {
+    filter: blur(2px);
 }
 
 /* TOP MENU */
@@ -21,10 +36,12 @@ header {
     align-items: center;
 }
 
-header h1 {
+header h1 {             /*REVOIR CAR REFAIT*/
+    text-decoration: none;
     margin: 0;
     font-family: 'RBold', 'Times New Roman', Times, serif;
     font-size: 250%;
+    color: white;
 }
 
 nav ul {
@@ -41,151 +58,153 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-family: 'RLight', 'Times New Roman', Times, serif;
     font-size: 110%;
+    transition: .5s;
 }
+
+nav a:hover {
+    /* transform: scale(5); */
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
+}
+
+nav a:focus {
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
+}
+
+/* nav a:hover {
+    background: blueviolet;
+    filter: blur(4px);
+} */
 
 
 /* --------- */
 
-
-
 /* MAIN CONTAINER */
 
-.mainContainer {
+.main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
-    max-width: 100%;
-    margin: 0 auto;
+    grid-gap: 0px;
+    margin-bottom: 50px;
 }
 
-
-/* LEFT CONTAINER */
-
-.left {
-    background-color: #08052B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid black;
-    border-color: white; */
-}
-
-#neptuneDessin {
-
-    width: 60%;
-    /* min-width: 30%; */
-}
-
-
-/* --------------- */
-
-
-/* RIGHT CONTAINER */
-
-.right {
-    width: 700px;
-    background-color: #08052B;
-    border: 1px;
-    position: relative;
-    flex-direction: column;
-    margin-right: 20%;
-    text-align: right;
-    border: 1px;
-    border-color: 1px solid white;
-}
-
-.right h2 {
-    font-family: 'Rbold';
-    font-size: 40px;
-    color: white;
-    padding-top: 5%;
-    margin-bottom: 10px;
-}
-
-#overview {
-    color: white;
-    text-align: right;
-    display: inline-block;
-    width: 500px;
-    font-family: 'Rlight';
-    font-size: 22px;
-    word-spacing: 7px;
-    padding-bottom: 10px;
-}
-
-
-
-/* INSIDE BLOC/ VALUES */
-
-.valueLeft {
-    color: white;
-    font-family: 'Rlight';
-    font-size: 22px;
-    text-align: left;
-
-}
-
-
-.separationLine1, .separationLine2, .separationLine3, .separationLine4 {
+.shape {
     position: absolute;
-    right: 0;
-    width: 500px;
-    height: 0;
+    z-index: 1;
+    top: 18%;
+    left: 41%;
+    height: 15%;
+    width: 35.5%;
+    border-top: 2px solid white; 
+    border-left: 2px solid white;
+    -moz-transform: skew(140deg); 
+    -webkit-transform: skew(140deg);
+    transform: skew(140deg);
+}
+
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    margin-bottom: 10%;
+}
+
+/* ------ Nouveau right ------ */
+
+.article {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+}
+
+h2 {
+    font-family: 'Rbold';
+    font-size: 150%;
+    color: white;
+    margin-top: 15%; /*éloigné de shape */
+    text-align: right;
+}
+
+h2, p {
+    margin-bottom: 0; /* éloigné entre eux */
+}
+
+p {
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    font-family: 'Rthin', 'Arial', Helvetica, sans-serif;;
+    font-size: 100%;
+    margin-bottom: 5%;/* éloigné du tableau */
+}
+
+.separationLine {
     border-top: 2px solid white;
 }
 
-.content1, .content2, .content3, .content4 {
-    display: flex;
-    text-align: right;
-    margin-left: 200px;
-    width: 500px;
-    margin-top: -20px;
-    padding-bottom: 30px;
-}
+/* ------- tableau ------- */
 
-
-#value1, #value2, #value3, #value4 {
-    position: absolute;
-    right: 0;
+th {
     color: white;
-    font-family: 'RBlack';
-    font-size: 30px;
-}
-
-
-
-#number1 {
-    padding-top: 10px;
-}
-
-.ligne-brisee {
-    position: absolute;
-    width: 10.75%;
-    height: 200px
-}
-
-.line {
-    position: absolute;
-    width: 650px;
-    height: 3px;
-    background-color: white;
-    top: 30%;
-    left: 490%;
-    z-index: 1;
-  
-    &::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      width: 300px; 
-      height: 100%;
-      background-color: inherit; 
-      transform: rotate(140deg);
-      transform-origin: 0% 60%;
-    }
-  
-   
+    border-bottom: 1px solid white;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    text-align: left;
+    font-family: 'Rthin', 'Arial', Helvetica, sans-serif;;
+    font-size: 90%;
   }
+  
+  td {
+    color: white;
+    font-family: 'RBlack', 'Arial', Helvetica, sans-serif;;
+    text-align: right;
+    padding-bottom: 5%;
+    padding-top: 1%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 150%;
+  }
+  
+  tr:not(:last-child) td {
+    border-bottom: 1px solid white;
+  }
+  
+  tr:last-child th {
+    border-bottom: none;
+    padding-bottom: 5%;
+    padding-top: 1%;
+  }
+
+
+/* ------ nouveau left ------ */
+
+#mercureDessin {
+    width: 50%;
+    min-width: 30%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    grid-column: 1 / -1;
+    background-color: #08052B;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
