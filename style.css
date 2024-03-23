@@ -47,6 +47,17 @@ nav ul li a {
     color: #ffffff;
     font-family: 'RLight', 'Times New Roman', Times, serif;
     font-size: 110%;
+    transition: .5s;
+}
+
+nav a:hover {
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
+}
+
+nav a:active {
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
 }
 
 footer {
@@ -81,75 +92,112 @@ footer {
     position: absolute;
 }
 
+
 /* sun */
-.container img:first-child { 
+.container  img:first-child { 
     width: 15%; /* 200px au lieu d'env 300px */
     height: auto;
 }
 
-/* mercury */
-.container img:nth-child(2) {
-    width: 3%; /* 30px au lieu de 50px*/
+
+#mercurePicture, #venusPicture, #terrePicture, 
+#marsPicture, #jupiterPicture, #saturnePicture, 
+#uranusPicture, #neptunePicture {
     height: auto;
-    right: 30%;
-    top: 35%;
+    transition: .5s;
 }
 
-/* earth */
-.container img:nth-child(3) {
+#mercurePicture, #venusPicture, #marsPicture {
+    width: 3%;
+}
+
+/* mercury */ 
+#mercurePicture {
+ /* 30px au lieu de 50px*/
+    right: 30%;
+    top: 35%;
+ }
+
+#mercurePicture:hover {
+    width: 4%;
+}
+
+/* earth */ 
+#terrePicture {
     width: 4%; /* 63px au lieu de 83px */
-    height: auto;
     right: 21%;
     top: 50%;
+ }
+
+#terrePicture:hover {
+    width: 5%;
 }
 
 /* jupiter */
-.container img:nth-child(4) {
-    width: 10%; /* px au lieu de 176px */
-    height: auto;
+#jupiterPicture {
+    width: 10%; /* px au lieu de 176px*/
     right: 10%;
     top: 20%;
 }
 
+#jupiterPicture:hover {
+    width: 11%;
+}
+
 /* uranus */
-.container img:nth-child(5) {
+#uranusPicture {
     width: 5%; /* px au lieu de 95px */
-    height: auto;
     right: 6%;
     top: 51%;
     transform: rotate(45deg);
 }
 
+#uranusPicture:hover {
+    width: 6%;
+}
+
 /* venus */
-.container img:nth-child(6) {
-    width: 3%; /*au lieu de 73px */
-    height: auto;
+#venusPicture {
+    /*au lieu de 73px */
     left: 27%;
     top: 41%;
 }
 
+#venusPicture:hover {
+    width: 4%;
+}
+
 /* mars */
-.container img:nth-child(7) {
-    width: 3%; /*au lieu de 68x */
-    height: auto;
+#marsPicture {
+    /*au lieu de 68x */
     left: 21%;
     top: 55%;
 }
 
+#marsPicture:hover {
+    width: 4%;
+}
+
 /* saturne */
-.container img:nth-child(8) {
+#saturnePicture {
     width: 8%; /*au lieu de 146px et 140px */
-    height: auto;
     left: 10%;
     top: 27%;
 }
 
+#saturnePicture:hover {
+    width: 9%;
+}
+
 /* neptune */
-.container img:nth-child(9) {
+#neptunePicture {
     width: 6%; /*au lieu de 112px */
-    height: auto;
     left: 4%;
     top: 50%;
+}
+
+#neptunePicture:hover {
+    width: 7%;
 }
 
 .ligne-brisee {

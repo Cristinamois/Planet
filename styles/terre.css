@@ -44,7 +44,19 @@ nav ul li a {
     color: #ffffff;
     font-family: 'RLight', 'Times New Roman', Times, serif;
     font-size: 110%;
+    transition: .5s;
 }
+
+nav a:hover {
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
+}
+
+nav a:active {
+    font-family: 'Rblack', sans-serif;
+    font-size: 120%;
+}
+
 
 
 /* --------- */
@@ -189,3 +201,12 @@ nav ul li a {
   
    
   }
+
+
+#actual {
+    font-family: 'RBold', sans-serif;
+}
+
+#otherPlanets {
+    filter: blur(2px);
+}

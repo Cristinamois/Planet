@@ -56,7 +56,13 @@ nav ul li a {
     color: #ffffff;
     font-family: 'RLight', 'Times New Roman', Times, serif;
     font-size: 110%;
+    /* transition: .5s; */
+    
 }
+/* nav a:hover {
+    background: blueviolet;
+    filter: blur(4px);
+} */
 
 
 /* --------- */
@@ -82,6 +88,7 @@ nav ul li a {
 /* Nouveau right */
 
 .article {
+    width: 77%;
     display: grid;
     grid-template-columns: 1fr;
     padding: 0px;
@@ -131,14 +138,14 @@ h2 {
     border-top: 2px solid red;
 }
 
-/* .content1, .content2, .content3, .content4 {
+.content1, .content2, .content3, .content4 {
     display: flex;
     text-align: right;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     width: 500px;
     margin-top: -20px;
     padding-bottom: 30px;
-} */
+}
 
 /* nouveau left */
 
