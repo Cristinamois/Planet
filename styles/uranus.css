@@ -180,7 +180,8 @@ th {
 
 /* ------ nouveau left ------ */
 
-#mercureDessin {
+#uranusDessin {
+    transform: rotate(45deg);
     width: 50%;
     min-width: 30%;
 }
