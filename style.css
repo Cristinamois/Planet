@@ -25,6 +25,8 @@ header {
 }
 
 header h1 {
+    text-decoration: none;
+    color: white;
     margin: 0;
     font-family: 'RBold', 'Times New Roman', Times, serif;
     font-size: 250%;
