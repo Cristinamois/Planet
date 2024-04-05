@@ -1,6 +1,4 @@
 
-@media screen and (min-width: 768px) {
-
 @import url('font.css');
 
 body {
@@ -11,7 +9,7 @@ body {
 
 a {
     text-decoration: none;
-    color: antiquewhite;
+    color: red;
 }
 
 header {
@@ -21,7 +19,7 @@ header {
     /* background-color: grey; */
     /* border-top: #fff 1px; */
     border-bottom: 0.5px solid grey;
-    color: #fff;
+    color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +27,7 @@ header {
 
 header h1 {
     text-decoration: none;
-    color: white;
+    color: red;
     margin: 0;
     font-family: 'RBold', 'Times New Roman', Times, serif;
     font-size: 250%;
@@ -124,10 +122,10 @@ footer {
 
 /* mercury */ 
 #mercurePicture {
- /* 30px au lieu de 50px*/
+    /* 30px au lieu de 50px*/
     right: 30%;
     top: 35%;
- }
+    }
 
 #mercurePicture:hover {
     width: 4%;
@@ -138,7 +136,7 @@ footer {
     width: 4%; /* 63px au lieu de 83px */
     right: 21%;
     top: 50%;
- }
+    }
 
 #terrePicture:hover {
     width: 5%;
@@ -209,5 +207,4 @@ footer {
 
 #neptunePicture:hover {
     width: 7%;
-}
 }

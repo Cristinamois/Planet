@@ -1,6 +1,3 @@
-
-@media screen and (min-width: 768px) {
-
 @import url('font.css');
 
 body {
@@ -11,20 +8,17 @@ body {
 
 a {
     text-decoration: none;
-    color: antiquewhite;
+    color: white;
+    align-items: center;
 }
 
 header {
-    /* grid-column: 1 / -1; */
     padding: 1.5%;
     background-color: transparent;
-    /* background-color: grey; */
-    /* border-top: #fff 1px; */
     border-bottom: 0.5px solid grey;
     color: #fff;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 header h1 {
@@ -32,7 +26,10 @@ header h1 {
     color: white;
     margin: 0;
     font-family: 'RBold', 'Times New Roman', Times, serif;
-    font-size: 250%;
+    font-size: 100%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 nav ul {
@@ -41,6 +38,15 @@ nav ul {
     margin: 0;
     display: flex;
     align-items: center;
+    /* white-space: nowrap; */
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+
+nav ul::-webkit-scrollbar {
+    display: none;
 }
 
 nav ul li {
@@ -51,19 +57,12 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'RLight', 'Times New Roman', Times, serif;
-    font-size: 110%;
+    font-size: 90%;
     transition: .5s;
+    display: inline-block;
+    scroll-snap-align: center;
 }
 
-nav a:hover {
-    font-family: 'Rblack', sans-serif;
-    font-size: 120%;
-}
-
-nav a:active {
-    font-family: 'Rblack', sans-serif;
-    font-size: 120%;
-}
 
 footer {
     /* grid-column: 1 / -1; */
@@ -73,7 +72,7 @@ footer {
     text-align: center;
 }
 
-/* .container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,14 +82,14 @@ footer {
 .container img {
     width: 300px;
     height: 300px;
-} */
+} 
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; /* Prend 100% de la hauteur de la fenêtre */
-    position: relative; /* Positionnement relatif pour positionner l'image absolument */
+    position: relative; 
 }
 
 .container img {
@@ -103,7 +102,7 @@ footer {
     width: 15%; /* 200px au lieu d'env 300px */
     height: auto;
     left: 43%;
-    top: 30%;
+    top: 10%;
 }
 
 #soleilPicture:hover {
@@ -119,14 +118,14 @@ footer {
 
 
 #mercurePicture, #venusPicture, #marsPicture {
-    width: 3%;
+    width: 7%;
 }
 
 /* mercury */ 
 #mercurePicture {
  /* 30px au lieu de 50px*/
     right: 30%;
-    top: 35%;
+    top: 20%;
  }
 
 #mercurePicture:hover {
@@ -135,9 +134,9 @@ footer {
 
 /* earth */ 
 #terrePicture {
-    width: 4%; /* 63px au lieu de 83px */
-    right: 21%;
-    top: 50%;
+    width: 9%; /* 63px au lieu de 83px */
+    right: 30%;
+    top: 35%;
  }
 
 #terrePicture:hover {
@@ -146,9 +145,9 @@ footer {
 
 /* jupiter */
 #jupiterPicture {
-    width: 10%; /* px au lieu de 176px*/
-    right: 10%;
-    top: 20%;
+    width: 17%; /* px au lieu de 176px*/
+    right: 20%;
+    top: 49%;
 }
 
 #jupiterPicture:hover {
@@ -157,9 +156,9 @@ footer {
 
 /* uranus */
 #uranusPicture {
-    width: 5%; /* px au lieu de 95px */
-    right: 6%;
-    top: 51%;
+    width: 10%; /* px au lieu de 95px */
+    right: 20%;
+    top: 70%;
     transform: rotate(45deg);
 }
 
@@ -171,7 +170,7 @@ footer {
 #venusPicture {
     /*au lieu de 73px */
     left: 27%;
-    top: 41%;
+    top: 27%;
 }
 
 #venusPicture:hover {
@@ -181,8 +180,9 @@ footer {
 /* mars */
 #marsPicture {
     /*au lieu de 68x */
-    left: 21%;
-    top: 55%;
+    left: 25%;
+    top: 43%;
+    width: 10%;
 }
 
 #marsPicture:hover {
@@ -191,9 +191,9 @@ footer {
 
 /* saturne */
 #saturnePicture {
-    width: 8%; /*au lieu de 146px et 140px */
-    left: 10%;
-    top: 27%;
+    width: 20%; /*au lieu de 146px et 140px */
+    left: 20%;
+    top: 60%;
 }
 
 #saturnePicture:hover {
@@ -202,12 +202,11 @@ footer {
 
 /* neptune */
 #neptunePicture {
-    width: 6%; /*au lieu de 112px */
-    left: 4%;
-    top: 50%;
+    width: 15%; /*au lieu de 112px */
+    left: 20%;
+    top: 80%;
 }
 
 #neptunePicture:hover {
     width: 7%;
-}
 }
