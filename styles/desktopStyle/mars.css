@@ -1,5 +1,5 @@
 
-@import url('../assets/font/font.css');
+@import url('../../assets/font/font.css');
 
 body {
     display: grid;
@@ -36,6 +36,14 @@ header {
     align-items: center;
 }
 
+/* header h1 {             REVOIR CAR REFAIT
+    text-decoration: none;
+    margin: 0;
+    font-family: 'RBold', 'Times New Roman', Times, serif;
+    font-size: 250%;
+    color: white;
+} */
+
 a {
     text-decoration: none;
     color: white;
@@ -47,6 +55,13 @@ header h1 {
     margin: 0;
     font-size: 250%;
 }
+
+/* header h1 {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-size: 250%;
+} */
 
 nav ul {
     list-style-type: none;
@@ -184,7 +199,7 @@ th {
 
 /* ------ nouveau left ------ */
 
-#venusDessin {
+#marsDessin {
     width: 50%;
     min-width: 30%;
 }

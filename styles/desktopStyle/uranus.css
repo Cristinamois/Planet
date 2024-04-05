@@ -1,5 +1,5 @@
 
-@import url('../assets/font/font.css');
+@import url('../../assets/font/font.css');
 
 body {
     display: grid;
@@ -184,7 +184,8 @@ th {
 
 /* ------ nouveau left ------ */
 
-#neptuneDessin {
+#uranusDessin {
+    transform: rotate(45deg);
     width: 50%;
     min-width: 30%;
 }

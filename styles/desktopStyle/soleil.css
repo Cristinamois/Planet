@@ -1,5 +1,5 @@
 
-@import url('../assets/font/font.css');
+@import url('../../assets/font/font.css');
 
 body {
     display: grid;
@@ -184,7 +184,7 @@ th {
 
 /* ------ nouveau left ------ */
 
-#mercureDessin {
+#soleilDessin {
     width: 50%;
     min-width: 30%;
 }
