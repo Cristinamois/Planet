@@ -7,7 +7,8 @@ body {
     background-color: #08052B;
 }
 
-p {
+a {
+    text-decoration: none;
     color: antiquewhite;
 }
 
