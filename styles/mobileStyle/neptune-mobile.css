@@ -1,18 +1,11 @@
 
 @import url('../../assets/font/font.css');
 
-@media screen and (min-width: 768px) {
-
 body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-gap: 0px;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
-    /* font-family: Arial, sans-serif; */
     background-color: #08052B;
+    overflow-x: hidden;
 }
 
 /* TOP MENU */
@@ -26,28 +19,31 @@ body {
 
 /* TOP MENU */
 header {
-    /* grid-column: 1 / -1; */
     padding: 1.5%;
-    background-color: transparent;
-    /* background-color: grey; */
-    /* border-top: #fff 1px; */
+    /* background-color: transparent; */
+    background-color: rgba(13,9,56, 0.5);
     border-bottom: 0.5px solid grey;
     color: #fff;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 a {
     text-decoration: none;
     color: white;
+    align-items: center;
 }
 
 header h1 {
-    font-family: 'RBold', 'Times New Roman', Times, serif;
-    padding: 0;
+    text-decoration: none;
+    color: white;
     margin: 0;
-    font-size: 250%;
+    font-family: 'RBold', 'Times New Roman', Times, serif;
+    font-size: 100%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 nav ul {
@@ -56,6 +52,15 @@ nav ul {
     margin: 0;
     display: flex;
     align-items: center;
+    /* white-space: nowrap; */
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+
+nav ul::-webkit-scrollbar {
+    display: none;
 }
 
 nav ul li {
@@ -64,78 +69,59 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-family: 'RLight', 'Times New Roman', Times, serif;
-    font-size: 110%;
+    font-size: 90%;
     transition: .5s;
+    display: inline-block;
+    scroll-snap-align: center;
 }
-
-nav a:hover {
-    /* transform: scale(5); */
-    font-family: 'Rblack', sans-serif;
-    font-size: 120%;
-}
-
-nav a:focus {
-    font-family: 'Rblack', sans-serif;
-    font-size: 120%;
-}
-
-/* nav a:hover {
-    background: blueviolet;
-    filter: blur(4px);
-} */
 
 
 /* --------- */
 
 /* MAIN CONTAINER */
 
-.shape {
-    position: absolute;
-    z-index: 1;
-    top: 18%;
-    left: 41%;
-    height: 15%;
-    width: 35.5%;
-    border-top: 2px solid white; 
-    border-left: 2px solid white;
-    -moz-transform: skew(140deg); 
-    -webkit-transform: skew(140deg);
-    transform: skew(140deg);
-}
 
 
 .main-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0px;
     margin-bottom: 10%;
 }
 
 /* ------ Nouveau right ------ */
 
 .article {
-    width: 60%;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px;
+    width: 80%;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    /* text-align: center; */
+    padding: 10%;
 }
 
 .smartphone-title h2 {
-    display: none;
+    font-family: 'Rbold';
+    font-size: 200%;
+    color: white;
+    /* margin-top: 15%; éloigné de shape */
+    /* align-items: center;*/
+    text-align: center;
+    /* right: 50%; */
 }
 
 .desktop-title h2 {
+    display: none;
+}
+
+/* h2 {
     font-family: 'Rbold';
     font-size: 150%;
     color: white;
-    margin-top: 15%; /*éloigné de shape */
+    margin-top: 15%; 
     text-align: right;
-}
+} */
 
 h2, p {
-    margin-bottom: 0; /* éloigné entre eux */
+    margin-bottom: 5%; /* éloigné entre eux */
 }
 
 p {
@@ -144,7 +130,8 @@ p {
     display: inline-block;
     font-family: 'Rthin', 'Arial', Helvetica, sans-serif;;
     font-size: 100%;
-    margin-bottom: 5%;/* éloigné du tableau */
+    margin-bottom: 15%;/* éloigné du tableau */
+    line-height: 1.5;
 }
 
 .separationLine {
@@ -174,7 +161,7 @@ th {
   table {
     border-collapse: collapse;
     width: 100%;
-    font-size: 150%;
+    font-size: 120%;
   }
   
   tr:not(:last-child) td {
@@ -192,7 +179,9 @@ th {
 
 #neptuneDessin {
     width: 50%;
-    min-width: 30%;
+    /* min-width: 30%; */
+    margin-top: 15%;
+    /* left: 50%; */
 }
 
 .image {
@@ -213,4 +202,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
-}
+/* } */
