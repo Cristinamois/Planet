@@ -1,6 +1,8 @@
 
 @import url('../../assets/font/font.css');
 
+@media screen and (min-width: 768px) {
+
 body {
     display: grid;
     grid-template-columns: 1fr;
@@ -120,7 +122,11 @@ nav a:focus {
     padding: 0px;
 }
 
-h2 {
+.smartphone-title h2 {
+    display: none;
+}
+
+.desktop-title h2 {
     font-family: 'Rbold';
     font-size: 150%;
     color: white;
@@ -206,4 +212,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
 }
