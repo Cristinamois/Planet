@@ -161,7 +161,7 @@ th {
   table {
     border-collapse: collapse;
     width: 100%;
-    font-size: 150%;
+    font-size: 120%;
   }
   
   tr:not(:last-child) td {
