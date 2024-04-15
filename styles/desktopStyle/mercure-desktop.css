@@ -1,7 +1,5 @@
+
 @import url('../../assets/font/font.css');
-
-@media screen and (min-width: 768px) {
-
 
 body {
     display: grid;
@@ -18,7 +16,6 @@ body {
 /* TOP MENU */
 #actual {
     font-family: 'RBold', sans-serif;
-    /* color: red; */
 }
 
 #otherPlanets {
@@ -127,7 +124,8 @@ nav a:focus {
     display: none;
 }
 
-.desktop-title h2 {
+
+.desktop-title {
     font-family: 'Rbold';
     font-size: 150%;
     color: white;
@@ -214,4 +212,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
-}
+/* } */
