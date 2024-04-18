@@ -1,15 +1,13 @@
 if (window.innerWidth <= 768) { // Si la largeur de l'écran est inférieure ou égale à 768 pixels (taille d'un périphérique mobile)
     document.addEventListener('DOMContentLoaded', function() {
-        var navContainer = document.querySelector('.nav-container');
-        var navItems = document.querySelectorAll('.nav-items li');
+        var actualLink = document.getElementById('actual');
+        var navContainer = document.querySelector('.navigation');
     
-        navItems.forEach(function(navItem) {
-            navItem.addEventListener('click', function() {
-                // Centrer l'élément cliqué
-                var containerWidth = navContainer.offsetWidth;
-                var scrollLeft = navItem.offsetLeft - (containerWidth - navItem.offsetWidth) / 2;
-                navContainer.scrollLeft = scrollLeft;
-            });
+        actualLink.addEventListener('click', function(event) {
+            event.preventDefault(); // Empêche le comportement par défaut du lien
+            var containerWidth = navContainer.offsetWidth;
+            var scrollLeft = actualLink.offsetLeft - (containerWidth - actualLink.offsetWidth) / 2;
+            navContainer.scrollLeft = scrollLeft;
         });
     });
 }

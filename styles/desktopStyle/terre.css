@@ -36,6 +36,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    overflow: hidden;           /*Rajouté pour gerer la barre*/
 }
 
 a {
@@ -94,7 +96,8 @@ nav a:focus {
 .shape {
     position: absolute;
     z-index: 1;
-    top: 18%;
+    /* top: 18%; */
+    top: min(18%, calc(100vh - 30px));
     left: 41%;
     height: 15%;
     width: 35.5%;
@@ -103,6 +106,7 @@ nav a:focus {
     -moz-transform: skew(140deg); 
     -webkit-transform: skew(140deg);
     transform: skew(140deg);
+    /* max-height: 30px; */
 }
 
 

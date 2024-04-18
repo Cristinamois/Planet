@@ -34,6 +34,7 @@ a {
     text-decoration: none;
     color: white;
     align-items: center;
+    
 }
 
 header h1 {
@@ -46,6 +47,15 @@ header h1 {
     text-align: center;
     margin-bottom: 15px;
 }
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+/* #actual:target {
+    font-family: 'Ritalic', sans-serif; 
+} */
 
 nav ul {
     list-style-type: none;

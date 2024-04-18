@@ -137,7 +137,11 @@ nav a:focus {
     padding: 0px;
 }
 
-h2 {
+.smartphone-title h2 {
+    display: none;
+}
+
+.desktop-title h2 {
     font-family: 'Rbold';
     font-size: 150%;
     color: white;
